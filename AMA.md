@@ -11,6 +11,7 @@ class Child(Parent):
 
 c = Child()
 c.greet()  # Output: Hello from Parent
+```
 
 ## 2. **Abstraction**
 Abstraction hides complex implementation details and shows only essential features to the user. In Python, abstraction can be achieved using abstract classes and abstract
@@ -29,6 +30,7 @@ class Square(Shape):
 
 s = Square(4)
 print(s.area())  # Output: 16
+
 
 ## 3. Difference Between List and Tuple
 | Feature    | List            | Tuple         |
