@@ -42,7 +42,8 @@ print(s.area())  # Output: 16
 my_list = [1, 2, 3]
 my_tuple = (1, 2, 3)
 my_list.append(4)  # Works
-# my_tuple.append(4)  # Error: tuple has no append
+my_tuple.append(4)  
+Error: tuple has no append
 ## 4.Difference Between Single and Multiple Inheritance
 | Type                 | Description                                     | Example                          |
 | -------------------- | ----------------------------------------------- | -------------------------------- |
@@ -117,9 +118,9 @@ fruits = ["apple", "banana", "cherry"]
 for index, fruit in enumerate(fruits):
     print(index, fruit)
 # Output:
-# 0 apple
-# 1 banana
-# 2 cherry
+0 apple
+1 banana
+2 cherry
 
 ## 10. List Comprehension
 A concise way to create lists using a single line.
@@ -135,7 +136,7 @@ for i in range(5):
     if i == 3:
         continue
     print(i)
-# Output: 0 1 2 4
+ Output: 0 1 2 4
 
 ## 12. Open/Closed Principle (SOLID)
 A class should be open for extension but closed for modification. You should be able to extend its behavior without changing its source code.
